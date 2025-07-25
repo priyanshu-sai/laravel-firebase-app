@@ -1,2 +1,2 @@
 import './bootstrap';
-import './firebase';
+import './login';
