@@ -10,8 +10,6 @@ class TaskController extends Controller
     public function getTasks(Request $request)
     {
         $uid = $request->uid;
-
-        // Dummy data (or fetch from Firebase SDK)
         return response()->json([
             [
                 'title' => 'Task 1',
